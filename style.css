@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+
+  }
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 5px solid hsl(36, 11%, 9%) 100%, 60%;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #f4f4f476;
+  box-shadow: 0 0 10px #ccc;
+  background-position: 50%;
+  align-items: center;
+}
+
+.display {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 8px solid #ffc2c2;
+  border-radius: 15px;
+  text-align: right;
+  font-size: 30px;
+  background-color: #fff;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 9px;
+}
+
+.key {
+  height: 60px;
+  border-color: #ccc;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: #ebb2ac;
+  box-shadow: 0 0 10px #ccc;
+  cursor: pointer;
+}
+
+.key:active {
+  background-color: #ccc;
+}
